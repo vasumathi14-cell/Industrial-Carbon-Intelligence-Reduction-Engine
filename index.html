@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>
+        Carbon Intelligence System
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <h1>
+        🌱 Carbon Intelligence
+    </h1>
+
+    <p>
+        Industrial Carbon Reduction Engine
+    </p>
+
+</header>
+
+
+<div class="container">
+
+
+    <!-- DASHBOARD -->
+
+    <section class="dashboard">
+
+        <div class="card">
+
+            <h3>
+                Total Emissions
+            </h3>
+
+            <h2 id="totalEmission">
+                0
+            </h2>
+
+            <p>
+                tCO₂e
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>
+                Number of Sources
+            </h3>
+
+            <h2 id="sourceCount">
+                0
+            </h2>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>
+                Reduction Projects
+            </h3>
+
+            <h2 id="projectCount">
+                0
+            </h2>
+
+        </div>
+
+    </section>
+
+
+    <!-- EMISSION SOURCES -->
+
+    <section class="box">
+
+        <h2>
+            Emission Sources
+        </h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>
+                        Source
+                    </th>
+
+                    <th>
+                        Activity
+                    </th>
+
+                    <th>
+                        Factor
+                    </th>
+
+                    <th>
+                        Emission
+                    </th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody id="emissionTable">
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+
+    <!-- ADD SOURCE -->
+
+    <section class="box">
+
+        <h2>
+            Add Emission Source
+        </h2>
+
+
+        <input
+            id="source"
+            placeholder="Source name"
+        >
+
+
+        <input
+            id="activity"
+            type="number"
+            placeholder="Activity"
+        >
+
+
+        <input
+            id="factor"
+            type="number"
+            step="0.01"
+            placeholder="Emission factor"
+        >
+
+
+        <button
+            onclick="addEmission()"
+        >
+            Add Source
+        </button>
+
+    </section>
+
+
+    <!-- BUDGET -->
+
+    <section class="box">
+
+        <h2>
+            Sustainability Budget
+        </h2>
+
+
+        <input
+            id="budget"
+            type="number"
+            value="100000"
+            placeholder="Enter budget"
+        >
+
+
+        <button
+            onclick="optimize()"
+        >
+            Optimize Budget
+        </button>
+
+
+        <div id="result">
+
+        </div>
+
+    </section>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>

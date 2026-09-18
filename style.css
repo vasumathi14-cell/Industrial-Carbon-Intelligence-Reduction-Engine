@@ -1,0 +1,250 @@
+body {
+
+    font-family:
+        Arial,
+        sans-serif;
+
+    margin: 0;
+
+    background:
+        #f1f5f2;
+
+    color:
+        #222;
+
+}
+
+
+header {
+
+    background:
+        #1d6b45;
+
+    color:
+        white;
+
+    text-align:
+        center;
+
+    padding:
+        25px;
+
+}
+
+
+header h1 {
+
+    margin:
+        0;
+
+}
+
+
+.container {
+
+    width:
+        90%;
+
+    max-width:
+        1100px;
+
+    margin:
+        30px auto;
+
+}
+
+
+.dashboard {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap:
+        20px;
+
+}
+
+
+.card {
+
+    background:
+        white;
+
+    padding:
+        20px;
+
+    border-radius:
+        10px;
+
+    text-align:
+        center;
+
+    box-shadow:
+        0 2px 8px
+        rgba(0,0,0,.1);
+
+}
+
+
+.card h2 {
+
+    font-size:
+        30px;
+
+    color:
+        #1d6b45;
+
+}
+
+
+.box {
+
+    background:
+        white;
+
+    padding:
+        25px;
+
+    margin-top:
+        25px;
+
+    border-radius:
+        10px;
+
+    box-shadow:
+        0 2px 8px
+        rgba(0,0,0,.1);
+
+}
+
+
+table {
+
+    width:
+        100%;
+
+    border-collapse:
+        collapse;
+
+}
+
+
+th,
+td {
+
+    padding:
+        12px;
+
+    border-bottom:
+        1px solid #ddd;
+
+    text-align:
+        center;
+
+}
+
+
+th {
+
+    background:
+        #e7f1eb;
+
+}
+
+
+input {
+
+    padding:
+        12px;
+
+    margin:
+        5px;
+
+    border:
+        1px solid #ccc;
+
+    border-radius:
+        5px;
+
+}
+
+
+button {
+
+    padding:
+        12px 20px;
+
+    margin:
+        5px;
+
+    border:
+        none;
+
+    border-radius:
+        5px;
+
+    background:
+        #1d6b45;
+
+    color:
+        white;
+
+    cursor:
+        pointer;
+
+}
+
+
+button:hover {
+
+    background:
+        #145034;
+
+}
+
+
+.result {
+
+    margin-top:
+        20px;
+
+}
+
+
+.project {
+
+    padding:
+        12px;
+
+    background:
+        #e9f5ed;
+
+    margin:
+        8px 0;
+
+    border-radius:
+        5px;
+
+}
+
+
+@media(max-width:700px) {
+
+    .dashboard {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+    input {
+
+        width:
+            90%;
+
+    }
+
+}
