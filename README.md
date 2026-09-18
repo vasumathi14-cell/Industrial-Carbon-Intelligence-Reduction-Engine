@@ -1,0 +1,2 @@
+# Industrial-Carbon-Intelligence-Reduction-Engine
+Industrial Carbon Intelligence &amp; Reduction Engine is an AI-based system that measures emissions from electricity, fuel, transport, production, and waste. It identifies major emission sources and recommends cost-effective strategies, helping industries use budgets wisely, reduce CO₂ emissions, improve efficiency, and achieve sustainability goals.
